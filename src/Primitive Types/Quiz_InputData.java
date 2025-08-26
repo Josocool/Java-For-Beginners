@@ -16,6 +16,9 @@ public class Quiz_InputData {
 
         System.out.println("Name: " + formattedName);
         System.out.println("Surname: " + formattedSurname);
+        System.out.println("Length Name: " +formattedName.length());
+        System.out.println("Length Surname: " +formattedSurname.length());
+
 
         sc.close();
     }
